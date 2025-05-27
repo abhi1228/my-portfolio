@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Additional custom styles can go here */
+html {
+  scroll-behavior: smooth;
+}
+
+.card-gradient {
+  background: linear-gradient(to right, #1F2937, #374151);
+}
+
+.timeline-container::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  background-color: #3B82F6;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -1px;
+}
+
+@media (max-width: 768px) {
+  .timeline-container::after {
+    left: 31px;
+  }
+}

@@ -1,0 +1,17 @@
+/* Layout.css */
+
+.layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffff; /* Tailwind's bg-gray-900 */
+  color: #f3f4f6;             /* Tailwind's text-gray-100 */
+  font-family: sans-serif;
+}
+
+.layout main {
+  flex-grow: 1;
+}
+.full-width{
+  width: 100%;
+}
