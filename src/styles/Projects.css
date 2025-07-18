@@ -22,7 +22,7 @@
 .projects-gradient-text {
   background: linear-gradient(to right, var(--primary-color), #10b981); /* to-green-500 */
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  /* -webkit-text-fill-color: transparent; */
 }
 
 .projects-subtitle {

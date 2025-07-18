@@ -13,23 +13,40 @@ export default function Hero() {
             <span className="block">Hi, I'm</span>
             <span className="text-primary">Abhishek Gupta</span>
           </h1>
-          <h2>Web Developer</h2>
+          <h2>Full Stack Developer</h2>
           <p>{profile}</p>
-          <div className="flex flex-wrap gap-4" >
-            <a style={{ marginRight: "10px" }} href="#contact" className="btn btn-primary">
-              <i className="fas fa-envelope" style={{ marginRight: "10px" }}></i>
+          <div className="flex flex-wrap gap-4">
+            {/* <a
+              style={{ marginRight: "10px" }}
+              href="#contact"
+              className="btn btn-primary"
+            >
+              <i
+                className="fas fa-envelope"
+                style={{ marginRight: "10px" }}
+              ></i>
               Contact Me
-            </a>
+            </a> */}
             <a href="#projects" className="btn btn-outline">
               <i className="fas fa-code" style={{ marginRight: "0.5rem" }}></i>
               View Projects
             </a>
           </div>
           <div className="social-icons">
-            <a href="https://github.com/abhi1228" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <a
+              href="https://github.com/abhi1228"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="GitHub"
+            >
               <i className="fab fa-github"></i>
             </a>
-            <a href="https://www.linkedin.com/in/abhishek-gupta-164468153" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <a
+              href="https://www.linkedin.com/in/abhishek-gupta-164468153"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
+            >
               <i className="fab fa-linkedin"></i>
             </a>
             <a href={`mailto:${contact.email}`} aria-label="Email">
@@ -62,11 +79,20 @@ export default function Hero() {
           </div>
           <div className="tech-stack">
             <h4>Tech Stack</h4>
-            <span>React</span>
-            <span>Node.js</span>
-            <span>Express</span>
-            <span>MongoDB</span>
-            <span>JavaScript</span>
+            <div className="tech-item">
+              <span>React</span>
+              <span>NextJs</span>
+              <span>JavaScript</span>
+              <span>Html</span>
+              <span>CSS</span>
+              <span>Tailwind</span>
+              <span>Node.js</span>
+              <span>Express</span>
+              <span>MongoDB</span>
+              <span>Firebase</span>
+              <span>PostgreSQL</span>
+              <span>SQL</span>
+            </div>
           </div>
         </div>
       </div>

@@ -154,9 +154,16 @@
 }
 
 .hero-card .tech-stack {
+  display: flex;
+    flex-direction: column;
   margin-top: 1.5rem;
   padding-top: 1.5rem;
   border-top: 1px solid #374151;
+}
+.tech-item{
+  display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
 }
 
 .hero-card .tech-stack h4 {

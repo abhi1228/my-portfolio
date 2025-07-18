@@ -23,7 +23,7 @@ export default function Projects() {
                 </div>
               </div>
               <div className="project-content">
-                <h3 className="project-title">{project.title}</h3>
+                <h3 className="project-title">{project.title} <a target="_blank" href={`${project.link}`}>Link</a></h3>
                 <p className="project-description">{project.description}</p>
 
                 <div className="project-tech">

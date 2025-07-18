@@ -11,7 +11,7 @@ export default function Experience() {
           <h2 className="experience-title">
             <span className="highlighted-text">Experience & Education</span>
           </h2>
-          <p className="experience-subtitle">My professional journey and educational background</p>
+          <h2 className="experience-subtitle">My professional journey and educational background</h2>
         </div>
 
         <div className="experience-timeline-section">
@@ -21,7 +21,7 @@ export default function Experience() {
             {experience.map((job, index) => (
               <div key={index} className="timeline-item">
                 <div className="timeline-flex">
-                  <div className={`timeline-content ${index % 2 === 0 ? "text-right" : ""}`}>
+                  <div className={`timeline-content`}>
                     <div className="timeline-card">
                       <h4 className="card-title text-primary">{job.title}</h4>
                       <p className="card-subtitle">{job.company}</p>
@@ -79,6 +79,7 @@ export default function Experience() {
                 </div>
                 <h4 className="cert-title">{cert.title}</h4>
                 <p className="cert-subtitle">{cert.issuedBy}</p>
+                <p className="cert-subtitle"><a target="_blank" href={cert.link}>Link</a></p>
               </div>
             ))}
           </div>

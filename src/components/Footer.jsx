@@ -12,7 +12,7 @@ export default function Footer() {
               <span className="footer-initial">AG</span>
               <span>Abhishek Gupta</span>
             </a>
-            <p className="footer-subtitle">Web Developer</p>
+            <p className="footer-subtitle">Full Stack Developer</p>
           </div>
 
           <div className="footer-links">
